@@ -1,0 +1,113 @@
+@charset 'UTF-8';
+
+body {
+  font-family: 'Ubuntu' sans-serif;
+  margin-top:-50px;
+  margin-bottom:125px;
+  margin-right:50px;
+  margin-left:50px;
+  padding-top:25px;
+} 
+
+.contentwrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 1060px;
+  min-height: 352px;
+  margin-top:150px;
+  margin-bottom:150px;
+  margin-right:150px;
+  margin-left:100px;
+  border-style: solid;
+  border-width: 5px;
+  border-height: 30px;
+  border-color: #000000;
+}
+
+.contentwrapper h1 {
+  font-size: 20pt;
+  font-weight: bold;
+  text-align:center;
+  color:#fff;
+}
+
+.scroll {
+  width: 1060px;
+  height: 352px;
+  overflow: hidden;
+  overflow: scroll;
+}
+
+.startButton {
+  margin-top:10px;
+  margin-bottom:0px;
+  margin-right450px;
+  margin-left:450px;
+}
+
+.resetButton {
+  margin-top:10px;
+  margin-bottom:0px;
+  margin-right475px;
+  margin-left:475px;
+}
+
+.remove {
+  float: left
+  color: red;
+}
+
+.announcement h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align:center;
+  color:#fff;
+}
+
+.welcome {
+  color: #fff;
+}
+
+.tabs {
+  margin-top: 50px;
+  margin-bottom:20px;
+  color:#fff;
+}
+
+.tabs .tab {
+  background: #333333; 
+  padding: 5px;
+  color: #F0F8FF;
+}
+
+.tabs .active {
+  background: #000000;
+}
+
+.edit_tab_content .tab {
+  display: none;
+  color:#fff;
+}
+
+.edit_tab_content .active {
+  display: block;
+  color:#fff;
+}
+
+.item {
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+  color:#fff;
+}
+
+.description {
+  padding:0 0 0 5px;
+  color:#fff;
+}
+
+.categories {
+  font-size: 9px;
+  color: gray;
+  padding: 0 0 0 10px;
+  color:#fff;
+}
