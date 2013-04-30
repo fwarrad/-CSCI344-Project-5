@@ -8,20 +8,7 @@ var main = function () {
         categTasks = 0,
         itemNum    = 0,
         numTasks   = 0,
-        allTasks   = 0,
-        totalTasks = 0;
-        
-
-    //Show & Hide
-    /*$(".tabs").hide();
-    $(".edit_tab_content").hide();
-    $(".resetButton").hide();
-    $("#startButton").click(function () {
-        $(".startButton").hide();
-        $(".resetButton").show();
-        $(".tabs").delay(80000000).fadeIn(80000000).show();
-        $(".edit_tab_content").delay(80000000).fadeIn(80000000).show();
-    }); // end of .click function  */
+        allTasks   = 0;       
   //Function that generates a unique ID. 
     var PseudoGuid = new (function() {
             this.empty = "00000000-0000-0000-0000-000000000000";
@@ -95,7 +82,7 @@ var main = function () {
         });
     };
 
-    //Reorganized Code -- Moved this function near the BuildAddTaskHandler Function. 
+    //Reorganized Code -- Moved this function near the buildUpaddTaskHandler Function. 
     var addTask = function (desc, categories) {
         $("#All").append("<div id='" + itemNum + "'' class='item " + allTasks + "'' >"
             + "<p class='description'>" + desc + "</p>"

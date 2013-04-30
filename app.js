@@ -1,6 +1,7 @@
 //var $ = window.$;
 //var ctwitter = window.ctwitter; 
 //var console = window.console; 
+    "use strict";
 var http = require("http"),
     express = require("express"),
     path = require("path"),

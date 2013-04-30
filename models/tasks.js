@@ -15,20 +15,21 @@ TasksSchema = new mongoose.Schema({
 Tasks = mongoose.model("Tasks", TasksSchema);
 
 Tasks.findOne({}, function (err, result) {
+    'use strict';
     if (err !== null) {
-	console.log(err);
+        console.log(err);
     } else if (result === null) {
-	var t = new Tasks({
-    "description":"Description Name",
-    "categories":["Category 1","Category2"]
+        var t = new Tasks({
+                "description": "Description Name",
+                "categories": ["Category 1", "Category2"]
 
-	});
+            });
 
-	t.save(function (err) {
-	    if (err !== null) {
-		    console.log(err);
-	    }
-	});
+        t.save(function (err) {
+            if (err !== null) {
+                console.log(err);
+            }
+        });
     }
 });
 
